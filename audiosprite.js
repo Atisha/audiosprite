@@ -353,7 +353,7 @@ module.exports = function(files) {
               finalJson.data.audioSprite.push({
                 id: sn,
                 startTime: spriteInfo.start * 1000,
-                duration: (spriteInfo.end - spriteInfo.start) * 1000
+                duration: Math.floor((spriteInfo.end - spriteInfo.start) * 1000)//kims:modify, 2021.04.12
               })
             }
             break

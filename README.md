@@ -18,6 +18,7 @@ npm install -g audiosprite
 ### via github (latest)
 ```
 npm install -g git+https://github.com/tonistiigi/audiosprite.git
+npm install -g git+https://github.com/Atisha/audiosprite.git
 ```
 
 #### Dependencies
